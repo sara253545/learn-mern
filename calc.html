@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>SL.NO.</th>
+                <th>FUNCTIONALITY</th>
+                <th>INPUT</th>
+                <th>OPERATION</th>
+                <th>OUTPUT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Addition</td>
+                <td rowspan="4">
+                    <table>
+                        <tr>
+                            <td><label>Enter the first number</label></td>
+                            <td><input type="text" id="firstNumber"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Enter the second number</label></td>
+                            <td><input type="text" id="secondNumber"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <button onclick="findSum()">SUM</button>
+                </td>
+                <td>
+                    <div id="resultSum"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Subtraction</td>
+
+                <td><button onclick="findDifference()">DIFFERENCE</button></td>
+                <td>
+                    <div id="resultDifference"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Multiplication</td>
+                <td></td>
+
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Division</td>
+                <td></td>
+
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Area of Square</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Area of Rectangle</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Area of Triangle (base and height)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Area of Triangle (3 sides)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Area of Circle</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Volume Of Sphere</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>Surface Area of Sphere</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>Simple Interest</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>Compound Interest</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>Roots of Quadratic Equation</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>Fahrenheit to Celcius</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>Celcius to Fahrenhiet</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>Swap</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>Rupees to Dollars</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>Dollars to Rupees</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>Rupees to Yen</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+            <tr>
+                <td>21</td>
+                <td>Yen to Rupees</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>22</td>
+                <td>Yen to Dollars</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td>Dollars to Yen</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
