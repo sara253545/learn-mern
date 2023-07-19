@@ -1,0 +1,7 @@
+1. Install VSC
+2. Install NODE and check the version
+3. Install required extensions
+4. Create a simple react app using
+npx create-react-app todolist
+5. Understand the folder structure
+a) node_modules - Library modules that is provided by NODE.
